@@ -1,0 +1,8 @@
+import { Facebook, Instagram, Linkedin } from "lucide-react";
+import { BrandMark } from "./Header";
+
+const links = [["Home", "#home"], ["Products", "#products"], ["Solutions", "#solutions"], ["Cases", "#products"], ["Support", "#contact"], ["Contact Us", "#contact"]];
+
+export function Footer() {
+  return <footer className="footer-reveal bg-footer text-footer-foreground"><div className="site-container py-14"><div className="grid gap-10 border-b border-footer-border pb-10 md:grid-cols-[1fr_auto]"><div><BrandMark inverse /><p className="mt-4 max-w-sm text-sm leading-6 text-footer-muted">Leading Tech Horizons, One Solution at a Time.</p></div><nav aria-label="Footer navigation" className="grid grid-cols-2 gap-x-10 gap-y-3 sm:grid-cols-3">{links.map(([label, href]) => <a className="text-sm text-footer-muted transition-colors hover:text-footer-foreground" href={href} key={label}>{label}</a>)}</nav></div><div className="flex flex-col gap-5 pt-8 sm:flex-row sm:items-center sm:justify-between"><p className="text-xs text-footer-muted">Copyright © 2026 Vir Uni - All Rights Reserved.</p><div className="flex gap-3"><a className="social-link" href="https://facebook.com" aria-label="Facebook"><Facebook /></a><a className="social-link font-bold" href="https://x.com" aria-label="X">X</a><a className="social-link" href="https://instagram.com" aria-label="Instagram"><Instagram /></a><a className="social-link" href="https://linkedin.com" aria-label="LinkedIn"><Linkedin /></a></div></div></div></footer>;
+}
