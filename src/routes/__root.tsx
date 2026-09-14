@@ -77,9 +77,9 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Viruni" },
-      { name: "description", content: "Global technology solutions from Viruni." },
-      { name: "author", content: "Viruni" },
+      { title: "FedTech" },
+      { name: "description", content: "Global technology solutions from Fedtech." },
+      { name: "author", content: "Fedtech" },
     ],
     links: [
       {
