@@ -50,18 +50,18 @@ export function IntroSection() {
           </h2>
           <div className="accent-rule mt-7" />
           <p className="mt-7 max-w-xl text-base leading-8 text-muted-foreground">
-            VirUni stands at the forefront of technology, specializing in a diverse spectrum of IT
+            Fedtech stands at the forefront of technology, specializing in a diverse spectrum of IT
             product solutions. With an unwavering focus on innovation, our expertise spans
             cutting-edge security through advanced CCTV systems, network excellence through
             Container Data Centers and network solutions, seamless network monitoring, and the
-            transformative power of AI. As a technology trailblazer, Viruni is dedicated to shaping
+            transformative power of AI. As a technology trailblazer, Fedtech is dedicated to shaping
             the future by delivering unparalleled advancements that redefine what’s possible in IT.
           </p>
         </div>
         <div className="intro-image reveal relative overflow-hidden">
           <img
             src={introImage}
-            alt="Viruni CCTV cameras and enterprise network equipment"
+            alt="Fedtech CCTV cameras and enterprise network equipment"
             width={1600}
             height={1104}
             loading="lazy"
@@ -161,7 +161,6 @@ export function BenefitsGrid() {
       <div className="site-container">
         <div className="reveal grid gap-8 border-b border-primary-foreground/20 pb-10 md:grid-cols-2">
           <div>
-            {/* <p className="eyebrow text-accent-soft">The Viruni advantage</p> */}
             <h2 className="mt-4 max-w-2xl font-display text-4xl font-bold leading-tight sm:text-5xl">
               Technology with purpose.
               <br />
@@ -169,7 +168,7 @@ export function BenefitsGrid() {
             </h2>
           </div>
           <p className="max-w-md self-end text-sm leading-7 text-primary-foreground/70">
-            From the first sensor to the final insight, every Viruni solution is engineered to work
+            From the first sensor to the final insight, every Fedtech solution is engineered to work
             as one dependable ecosystem.
           </p>
         </div>
@@ -232,14 +231,14 @@ export function ContactCTA() {
           For inquiries, reach us at{" "}
           <a
             className="font-bold text-hero-foreground underline underline-offset-4"
-            href="mailto:support@viruni.tech"
+            href="mailto:support@fedtech.tech"
           >
-            support@viruni.tech
+            support@fedtech.tech
           </a>
           —send us a message and we’ll endorse you to one of our authorized distributors.
         </p>
         <Button variant="hero" size="xl" className="mt-8" asChild>
-          <a href="mailto:support@viruni.tech">
+          <a href="mailto:support@fedtech.tech">
             Contact Us <ArrowRight />
           </a>
         </Button>

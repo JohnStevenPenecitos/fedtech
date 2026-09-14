@@ -24,7 +24,7 @@ export function HeroSlider() {
   const slide = slides[active] ?? slides[0];
   if (!slide) return null;
   return (
-    <section id="home" className="hero relative min-h-[720px] overflow-hidden text-hero-foreground" aria-roledescription="carousel" aria-label="Viruni solutions">
+    <section id="home" className="hero relative min-h-[720px] overflow-hidden text-hero-foreground" aria-roledescription="carousel" aria-label="Fedtech solutions">
       <div className="hero-media absolute inset-0" aria-hidden="true">
         {slides.map((item, index) => <img key={item.title} src={item.image} alt="" width={1920} height={1088} fetchPriority={index === 0 ? "high" : "auto"} className={`absolute inset-0 size-full object-cover transition-opacity duration-[1300ms] ${active === index ? "opacity-100" : "opacity-0"}`} />)}
       </div>

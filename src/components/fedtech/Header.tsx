@@ -17,18 +17,18 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import { productGroups } from "./data";
+import logo from "@/assets/images/fedtech-logo.png";
 
 const navLinks = ["Home", "Solutions", "Cases", "Support"];
 
 export function BrandMark({ inverse = false }: { inverse?: boolean }) {
   return (
-    <a href="#home" className="group inline-flex items-center gap-3" aria-label="Viruni home">
-      <span className={`brand-symbol ${inverse ? "brand-symbol-inverse" : ""}`} aria-hidden="true">
-        <i />
-        <i />
-        <i />
-      </span>
-      <span className="font-display text-xl font-extrabold tracking-[0.16em]">VIRUNI</span>
+    <a href="#home" className="group inline-flex items-center gap-3" aria-label="Fedtech home">
+      <img
+        src={logo}
+        alt="Fedtech logo"
+        className={`h-24 w-24 object-contain ${inverse ? "brightness-0 invert" : ""}`}
+      />
     </a>
   );
 }
@@ -105,7 +105,7 @@ export function Header() {
               <SheetTitle>
                 <BrandMark />
               </SheetTitle>
-              <SheetDescription className="sr-only">Viruni navigation menu</SheetDescription>
+              <SheetDescription className="sr-only">FedTech navigation menu</SheetDescription>
             </SheetHeader>
             <nav className="mt-10" aria-label="Mobile navigation">
               <SheetClose asChild>
@@ -118,7 +118,7 @@ export function Header() {
                   <AccordionTrigger className="mobile-nav-link no-underline hover:no-underline">
                     Products
                   </AccordionTrigger>
-                  <AccordionContent>
+                  <AccordionContent className="max-h-64 overflow-y-auto pr-1">
                     {productGroups.map((group) => (
                       <div className="mb-5" key={group.title}>
                         <p className="mb-2 text-xs font-bold uppercase tracking-[0.12em] text-primary">

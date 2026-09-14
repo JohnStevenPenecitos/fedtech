@@ -1,8 +1,8 @@
-import smartSecurity from "@/assets/viruni-smart-security.jpg";
-import dataCenter from "@/assets/viruni-data-center.jpg";
-import aiIot from "@/assets/viruni-ai-iot.jpg";
-import products from "@/assets/viruni-products.jpg";
-import droneIot from "@/assets/viruni-drone-iot.jpg";
+import smartSecurity from "@/assets/fedtech-smart-security.jpg";
+import dataCenter from "@/assets/fedtech-data-center.jpg";
+import aiIot from "@/assets/fedtech-ai-iot.jpg";
+import products from "@/assets/fedtech-products.jpg";
+import droneIot from "@/assets/fedtech-drone-iot.jpg";
 
 export const productGroups = [
   {
@@ -24,7 +24,7 @@ export const slides = [
     image: smartSecurity,
     eyebrow: "Global technology, engineered for impact",
     title: "Leading Tech Horizons, One Solution at a Time",
-    copy: "Viruni delivers cutting-edge IT product solutions spanning security, networking, and AI.",
+    copy: "Fedtech delivers cutting-edge IT product solutions spanning security, networking, and AI.",
     cta: "Explore Solutions",
     target: "#solutions",
   },
@@ -58,7 +58,7 @@ export const productsList = [
   { name: "CCTV Security Solution", description: "Experience peace of mind with advanced CCTV security. Round-the-clock surveillance protects your assets and premises with unmatched vigilance.", image: products, alt: "Dome and bullet CCTV cameras with network hardware" },
   { name: "Integrated Data Center Solution", description: "Unlock seamless connectivity and scalability with our integrated Network and Container Data Center solution, built for efficiency and streamlined operations.", image: dataCenter, alt: "Modern data center corridor with illuminated server racks" },
   { name: "AI & Software Solutions", description: "Elevate your capabilities with AI-powered software. Harness artificial intelligence to drive insights, efficiency, and innovation.", image: aiIot, alt: "AI edge computing and connected sensor equipment" },
-  { name: "Internet of Things", description: "Viruni IoT connects devices, sensors, and systems to share data and work smarter together, enabling automation and real-time insights.", image: droneIot, alt: "Industrial IoT sensors and drone monitoring a facility" },
+  { name: "Internet of Things", description: "Fedtech IoT connects devices, sensors, and systems to share data and work smarter together, enabling automation and real-time insights.", image: droneIot, alt: "Industrial IoT sensors and drone monitoring a facility" },
   { name: "Digital Network Device (WIFI6 ONU)", description: "The pinnacle in digital connectivity—enhanced speed, expanded bandwidth, and a forward-thinking solution for reliable infrastructure.", image: products, alt: "Enterprise network switch and security equipment" },
 ];
 

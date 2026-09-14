@@ -1,16 +1,16 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useEffect } from "react";
-import { Header } from "@/components/viruni/Header";
-import { HeroSlider } from "@/components/viruni/HeroSlider";
-import { BenefitsGrid, CategoryGrid, ContactCTA, FeaturedProducts, IntroSection } from "@/components/viruni/Sections";
-import { Footer } from "@/components/viruni/Footer";
+import { Header } from "@/components/fedtech/Header";
+import { HeroSlider } from "@/components/fedtech/HeroSlider";
+import { BenefitsGrid, CategoryGrid, ContactCTA, FeaturedProducts, IntroSection } from "@/components/fedtech/Sections";
+import { Footer } from "@/components/fedtech/Footer";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Viruni | Global IT & Technology Solutions" },
-      { name: "description", content: "Viruni delivers global security, network infrastructure, IoT and AI-powered technology solutions." },
-      { property: "og:title", content: "Viruni | Global IT & Technology Solutions" },
+      { title: "Fedtech | Global IT & Technology Solutions" },
+      { name: "description", content: "Fedtech delivers global security, network infrastructure, IoT and AI-powered technology solutions." },
+      { property: "og:title", content: "Fedtech | Global IT & Technology Solutions" },
       { property: "og:description", content: "Security, connectivity and intelligence engineered for tomorrow." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
